@@ -1,6 +1,6 @@
 ---
-title: 'Lab 01'
-subtitle: 'Nathan’s Hot-Dog Eating Contest'
+title: 'Week 1'
+subtitle: 'Intro to the course'
 summary: Nathan’s Hot-Dog Eating Contest
 date: "2018-04-09T00:00:00Z"
 featured: false
@@ -26,14 +26,22 @@ image:
 projects: []
 
 links:
-- icon: flask
+- icon: chalkboard-teacher
   icon_pack: fas
-  name: lab
-  url: /labs/01-eda_hot_dogs.html
-- icon: magic
+  name: Lecture slides
+  url: /lecture-slides/week-01_slides_intro-to-the-course.html
+- icon: laptop
   icon_pack: fas
-  name: slides
-  url: /slides/01-slides.html
+  name: Workshop
+  url: /workshops/week-01_workshop_intro-to-the-course.html
+- icon: cog
+  icon_pack: fas
+  name: Setup
+  url: /setup/week-01_setup.html
+- icon: book-open
+  icon_pack: fas
+  name: End of week materials
+  url: /end-of-week-materials/week-01_end-of-week-materials.html
 ---
 
 ## Readings
