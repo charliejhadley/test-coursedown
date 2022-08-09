@@ -2,17 +2,17 @@
 widget: hero
 headless: true
 weight: 10
-title: A great new course
-hero_media: coursedown.png
+title: "BCU MSc Module: Data Science for Healthcare Applications"
+# hero_media: coursedown.png
 cta:
-  label: '**View the Syllabus**'
-  url: https://www.graduateinstitute.ch/courses
-cta_alt:
-  label: Join Slack
-  url: https://slack.com
+  label: '**View the course timetable**'
+  url: timetable
+# cta_alt:
+#   label: Join Slack
+#   url: https://slack.com
 cta_note:
   label: >-
-    Last updated: 2021-12-29
+    Last updated: 2022-06-21
 design:
   background:
     image: mdp.jpg
@@ -24,6 +24,6 @@ advanced:
   css_class: fullscreen
 ---
 
-*MINT123*
+*ENG7218*
 
-Describe your course in a few words here.
+This website contains the full syllabus, lecture slides and workshop activities for the 2022 edition of the ENG7218 Module.
