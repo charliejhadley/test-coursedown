@@ -1,4 +1,43 @@
 /*************************************************
+ *  Charlie's customisations
+ **************************************************/
+
+
+// Cara's strong hack
+/* Make the strong tag render as bold in firefox (works in Chrome without this) */
+// strong {
+//  font-weight: 600;
+//  }
+//
+
+// Change home section
+.home-section.fullscreen {
+  min-height: calc(10vh - 70px);
+}
+@include media-breakpoint-down(md) {
+  .home-section.fullscreen {
+    min-height: calc(10vh - 50px);
+  }
+}
+.no-navbar .home-section.fullscreen {
+  min-height: 10vh;
+}
+
+.no-navbar .home-section.fullscreen {
+  min-height: 10vh;
+}
+
+.home-section-bg.bg-image {
+  background-position: center;
+  background-image:none !important;
+  background-color: #34A2B0;
+  filter: brightness(1) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*************************************************
  *  Dark themed components
  **************************************************/
 
@@ -30,7 +69,7 @@ $spc-04dp: #272c37;
 
 // Set dark version of navbar (iheid red)
 .dark .navbar {
-  background-color: #E20C20;
+  background-color: #2E516C;
 }
 // Set dark version of home backgrounds (dark). Uneven Sections
 .dark .home-section {
@@ -48,15 +87,15 @@ $spc-04dp: #272c37;
 }
 
 .dark .navbar-collapse {
-    background-color: #E20C20;
+    background-color: #2E516C;
 }
 
 .dark .dropdown-item {
-    background-color: #E20C20 !important;
+    background-color: #2E516C !important;
 }
 
 .dark .dropdown-menu {
-    background-color: #E20C20 !important;
+    background-color: #2E516C !important;
 }
 
 .dark .outline {
@@ -76,7 +115,7 @@ $spc-04dp: #272c37;
 }
 
 a:hover, a:focus {
-    color: #E20C20;
+    color: #CB324F;
 }
 // Resize the hero image
 .hero-media {
